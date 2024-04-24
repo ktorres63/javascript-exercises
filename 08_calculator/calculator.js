@@ -1,12 +1,14 @@
-const add = function() {
-	
+const add = function(a,b) {
+	return a+b;
 };
 
-const subtract = function() {
-	
+const subtract = function(a,b) {
+	return a-b;
 };
 
-const sum = function() {
+const sum = function(arr) {
+  //let resul = arr.reduce((total,e) => total + e ,0);
+  return arr.reduce((total,e) => total + e ,0);
 	
 };
 
