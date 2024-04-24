@@ -7,21 +7,24 @@ const subtract = function(a,b) {
 };
 
 const sum = function(arr) {
-  //let resul = arr.reduce((total,e) => total + e ,0);
   return arr.reduce((total,e) => total + e ,0);
-	
 };
 
-const multiply = function() {
+const multiply = function(arr) {
+  return arr.reduce((total, e) => total * e,1);
 
 };
 
-const power = function() {
-	
+const power = function(a,b) {
+  return Math.pow(a,b)
 };
 
-const factorial = function() {
-	
+const factorial = function(num) {
+  let resp = 1
+	for(let i = 1; i<=num ; i++){
+    resp*= i
+  }
+  return resp;
 };
 
 // Do not edit below this line
